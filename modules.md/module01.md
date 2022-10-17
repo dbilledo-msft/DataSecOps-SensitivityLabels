@@ -23,17 +23,17 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
 | #  | Section | Role |
 | --- | --- | --- |
-| 1 | [H2_TITLE](#jump-link) | Role |
+| 1 | [Create Sensivitiy Label](#jump-link) | Global Admin or Compliance Admin |
 | 2 | [H2_TITLE](#jump-link) | Role |
 | 3 | [H2_TITLE](#jump-link) | Role |
 
 <div align="right"><a href="#module-00---title">↥ back to top</a></div>
 
-## 1. H2_TITLE
+## 1. Create Sensitivity Label
 
 SHORT_DESCRIPTION
 
-1. STEP_PLACEHOLDER
+1. In Microsoft Edge, navigate to https://compliance.microsoft.com and log into the Microsoft Purview portal as Joni Sherman JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Joni's password should be provided by your lab hosting provider.
 
 2. STEP_PLACEHOLDER
 
