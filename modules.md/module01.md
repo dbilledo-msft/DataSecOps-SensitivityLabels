@@ -23,7 +23,7 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
 | #  | Section | Role |
 | --- | --- | --- |
-| 1 | [Create Sensivitiy Label](#create-sensitivity-label) | Global Admin or Compliance Admin |
+| 1 | [Create Sensivitiy Label](#1-create-sensitivity-label) | Global Admin or Compliance Admin |
 | 2 | [H2_TITLE](#jump-link) | Role |
 | 3 | [H2_TITLE](#jump-link) | Role |
 
