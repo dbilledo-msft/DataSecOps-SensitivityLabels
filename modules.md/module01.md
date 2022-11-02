@@ -15,7 +15,7 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
 ## :dart: Objectives
 
-* Create Sensitivity Label for Items and Schematized data assets
+* Create Sensitivity Label for Files and Schematized data assets
 * Publish Label Policy
 * Test label in Microsoft 365
 
@@ -33,9 +33,37 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
 SHORT_DESCRIPTION
 
-1. In Microsoft Edge, navigate to https://compliance.microsoft.com and log into the Microsoft Purview portal as Joni Sherman JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Joni's password should be provided by your lab hosting provider.
+1. In Microsoft Edge, navigate to https://compliance.microsoft.com and log into the Microsoft Purview portal as XXXX@ZZZZZZ.onmicrosoft.com (where XXXX ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Your password should be provided by your lab hosting provider.
 
-2. STEP_PLACEHOLDER
+2. In the Microsoft Purview portal, on the left navigation pane, select Information protection.
+3. On the Information protection page, under the Labels tab select + Create a label.
+4. The New sensitivity label wizard will start. On the Name and create a tooltip for your label page for the Name, Description for admins and Description for users, enter the following information:
+
+    *  Name: Internal
+    *  Display name: Internal
+    *  Description for users: Internal sensitivity label.
+    *  Description for admins: Internal sensitivity label for Contoso.
+    *  Select Next.
+
+On the Define the scope for this label page, select the option Items which protects emails, files, and Power BI items.
+
+Select Next.
+
+On the Choose protection settings for labeled items page, select Next.
+
+On the Auto-labeling for files and emails page, select Next.
+
+On the Define protection settings for groups and sites page, select Next.
+
+On the Auto-labeling for schematized data assests(preview) page, select Next.
+
+On the Review your settings and finish page, select Create label.
+
+The label will be created and when complete a message will display: Your sensitivity label was created
+
+Select Dont create a policy yet and then select Done.
+
+
 
 3. STEP_PLACEHOLDER
 
