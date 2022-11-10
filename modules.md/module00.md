@@ -13,7 +13,7 @@ Sensitivity labels from Microsoft Purview Information Protection let you classif
 
 Example showing available sensitivity labels in Excel, from the **Home** tab on the Ribbon. In this example, the applied label displays on the status bar:
 
-![Sensitivity label on the Excel ribbon and status bar.](../media/Sensitivity-label-in-Excel.png)
+![Sensitivity label on the Excel ribbon and status bar.](../images/module01/image3.png)
 
 To apply sensitivity labels, users must be signed in with their Microsoft 365 work or school account.
 
@@ -60,8 +60,7 @@ When viewed by users in your organization, a sensitivity label appears like a ta
 
 Each item that supports sensitivity labels can have a single sensitivity label applied to it. Documents and emails can have both a sensitivity label and a [retention label](retention.md#retention-labels) applied to them.
 
-> [!div class="mx-imgBorder"]
-> ![Sensitivity label applied to an email.](../media/Sensitivity-label-on-email.png)
+> ![Sensitivity label applied to an email.](../images/module01/image4.png)
 
 ## What sensitivity labels can do
 
