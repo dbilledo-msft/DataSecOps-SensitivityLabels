@@ -112,7 +112,7 @@ By default, the **Items** scope (previously named **Files & emails**) is always 
 
 If you change the defaults so not all scopes are selected, you see the first page of the configuration settings for scopes you haven't selected, but you can't configure the settings. For example, if the scope for items isn't selected, you can't select the options on the next page:
 
-![Unavailable options for sensitivity labels.](../media/sensitivity-labels-unavailable-settings.png)
+![Unavailable options for sensitivity labels.](../images/module01/image7.png)
 
 For these pages that have unavailable options, select **Next** to continue. Or, select **Back** to change the label's scope.
 
@@ -124,7 +124,7 @@ You can apply just one sensitivity label to an item such as a document, email, o
 
 The ordering of sublabels is used with [automatic labeling](apply-sensitivity-label-automatically.md), though. When you configure auto-labeling policies, multiple matches can result for more than one label. Then, the last sensitive label is selected, and then if applicable, the last sublabel. When you configure sublabels themselves (rather than auto-labeling policies) for automatic or recommended labeling, the behavior is a little different when sublabels share the same parent label. For example, a sublabel configured for automatic labeling is preferred over a sublabel configured for recommended labeling. For more information, see [How multiple conditions are evaluated when they apply to more than one label](apply-sensitivity-label-automatically.md#how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label).
 
-![Option to create a sublabel.](../media/Sensitivity-label-sublabel-options.png)
+![Option to create a sublabel.](../images/module01/image8.png)
 
 ### Sublabels (grouping labels)
 
@@ -136,7 +136,7 @@ Don't choose a parent label as the default label, or configure a parent label to
 
 Example of how sublabels display for users:
 
-![Grouped sublabels on the Ribbon.](../media/Sensitivity-label-grouped-labels2.png)
+![Grouped sublabels on the Ribbon.](../images/module01/image9.png)
 
 ### Editing or deleting a sensitivity label
 
