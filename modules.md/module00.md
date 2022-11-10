@@ -72,7 +72,7 @@ After a sensitivity label is applied to an email or document, any configured pro
 
 - **Mark the content** when you use Office apps, by adding watermarks, headers, or footers to email or documents that have the label applied. Watermarks can be applied to documents but not email. Example header and watermark:
     
-    ![Watermark and header applied to document.](../media/Sensitivity-label-watermark-header.png)
+    ![Watermark and header applied to document.](../images/module01/image5.png)
     
     Dynamic markings are also supported by using variables. For example, insert the label name or document name into the header, footer, or watermark. For more information, see [Dynamic markings with variables](sensitivity-labels-office-apps.md#dynamic-markings-with-variables).
     
