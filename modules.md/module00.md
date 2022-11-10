@@ -116,7 +116,7 @@ When you create your sensitivity labels in the Microsoft Purview compliance port
 
 You can apply just one sensitivity label to an item such as a document, email, or container. If you set an option that requires your users to provide a justification for changing a label to a lower classification, the order of this list identifies the lower classifications. However, this option does not apply to sublabels that share the priority of their parent label.
 
-The ordering of sublabels is used with [automatic labeling](apply-sensitivity-label-automatically.md), though. When you configure auto-labeling policies, multiple matches can result for more than one label. Then, the last sensitive label is selected, and then if applicable, the last sublabel. When you configure sublabels themselves (rather than auto-labeling policies) for automatic or recommended labeling, the behavior is a little different when sublabels share the same parent label. For example, a sublabel configured for automatic labeling is preferred over a sublabel configured for recommended labeling. For more information, see [How multiple conditions are evaluated when they apply to more than one label](apply-sensitivity-label-automatically.md#how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label).
+The ordering of sublabels is used with automatic labeling, though. When you configure auto-labeling policies, multiple matches can result for more than one label. Then, the last sensitive label is selected, and then if applicable, the last sublabel. When you configure sublabels themselves (rather than auto-labeling policies) for automatic or recommended labeling, the behavior is a little different when sublabels share the same parent label. For example, a sublabel configured for automatic labeling is preferred over a sublabel configured for recommended labeling. For more information, see [How multiple conditions are evaluated when they apply to more than one label](https://learn.microsoft.com/en-us/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label).
 
 ![Option to create a sublabel.](../images/module01/image8.png)
 
@@ -146,7 +146,7 @@ Unlike retention labels, which are published to locations such as all Exchange m
 
 When you configure a label policy, you can:
 
-- **Choose which users and groups see the labels.** Labels can be published to any specific user or email-enabled security group, distribution group, or Microsoft 365 group (which can have [dynamic membership](/azure/active-directory/users-groups-roles/groups-create-rule)) in Azure AD.
+- **Choose which users and groups see the labels.** Labels can be published to any specific user or email-enabled security group, distribution group, or Microsoft 365 group (which can have dynamic membership in Azure AD.
 
 - **Specify a default label** for unlabeled documents and emails, new containers (when you've [enabled sensitivity labels for Microsoft Teams, Microsoft 365 groups, and SharePoint sites](sensitivity-labels-teams-groups-sites.md)), and also a default label for [Power BI content](/power-bi/admin/service-security-sensitivity-label-default-label-policy). You can specify the same label for all four types of items, or different labels. Users can change the applied default sensitivity label to better match the sensitivity of their content or container.
     
