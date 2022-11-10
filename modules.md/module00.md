@@ -102,7 +102,7 @@ When you create a sensitivity label, you're asked to configure the label's scope
 
 This scope configuration lets you have sensitivity labels that are just for items such as documents and emails, and can't be selected for containers. And similarly, sensitivity labels that are just for containers and can't be selected for documents and emails. You can also select the scope for schematized data assets for Microsoft Purview Data Map:
 
-![Scope options for sensitivity labels.](../media/sensitivity-labels-scopes.png)
+![Scope options for sensitivity labels.](../images/module01/image6.png)
 
 By default, the **Items** scope (previously named **Files & emails**) is always selected. The other scopes are selected by default when the features are enabled for your tenant:
 
