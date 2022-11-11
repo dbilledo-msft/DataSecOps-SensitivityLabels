@@ -70,7 +70,9 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
 11. On the Auto-labeling for schematized data assests(preview) page click to enable, click Choose sensitive info types, search for social security number, select U.S. Social Security Number (SSN), click Add, and select Next.
 
-On the Review your settings and finish page, select Create label.
+    ![image8](../images/module01/autolabel2.png)
+
+12. On the Review your settings and finish page, select Create label.
 
 The label will be created and when complete a message will display: Your sensitivity label was created
 
