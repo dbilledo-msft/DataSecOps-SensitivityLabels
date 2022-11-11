@@ -4,7 +4,7 @@
 
 ## :loudspeaker: Introduction
 
-In this task, your HR department has requested a sensitivity label to apply to HR data and files containing social security numbers. You will create a sensitivity label for Internal documents and Schematized data assets.  This label will be automatically applied to files that contain a matching condition in Microsft 365 apps, SharePoint, Onedrive for Business, and Microsoft Purview data maps.
+In this task, your HR department has requested a sensitivity label to apply to HR data and files containing social security numbers. You will create a sensitivity label for Internal documents and Schematized data assets.  This label will be automatically applied to files that contain a matching condition in Microsft 365 apps, SharePoint, OneDrive for Business, and Microsoft Purview data maps.
 
 ## :thinking: Prerequisites
 The following Microsoft 365 licenses are required to automatically apply sensitivity labels to your assets in Microsoft 365 and the Microsoft Purview Data Map:
@@ -12,6 +12,10 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 * Microsoft 365 E5/A5/G5 Compliance
 * Microsoft 365 E5/A5/G5 Information Protection, and Governance
 * Office 365 E5, Enterprise Mobility + Security E5/A5/G5, and AIP Plan 2
+
+Before using Sensitivity Labels in Purview data maps, consent must be given to extend labeling to assets in Azure Purview. This step has already been taken in our lab environment but if you see the image below, you would need to click 'Turn on'.
+
+    ![image1](../images/module01/image1.png)
 
 ## :dart: Objectives
 
