@@ -26,9 +26,9 @@ However, there are some scenarios where label and label policy changes can take 
 
     ![image3](../images/module01/spo3.png)
 
-
+4. You can also confirm that the Sensitivity Labels have propogated into the Microsoft 365 service by viewing the Sensitivity Label button on the ribbon in the Word application as seen in the image above.
 
 ## :tada: CONGRATULATIONS!
-You've just published your first Label Policy!  In the next module, you will test this sensitivity label using a SharePoint document library and Word online.
+In this lab you tested the Sensitivity Label and Label Policy to confirm it has been configured properly and is successfully labeling when finding a matching condition in the file.
 
 [Continue >](../modules/module00.md)
