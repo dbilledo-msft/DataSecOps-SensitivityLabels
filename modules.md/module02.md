@@ -40,7 +40,7 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 
 5. Follow the prompts to configure the policy settings.
     The policy settings that you see match the scope of the labels that you selected. For example, if you selected labels that have just the **Items** scope, you don't see the policy settings **Apply this label by default to groups and sites** and **Require users to apply a label to their groups and sites**.
-    
+
     For labels configured for **Microsoft Purview Data Map assets (preview)**: These labels don't have any associated policy settings.
 
     **For this lab we will accept the default values and not make any selections until we get to the Name your policy screen.**
@@ -54,9 +54,7 @@ For labels and label policy settings, allow 24 hours for the changes to propagat
 However, there are some scenarios where label and label policy changes can take effect much faster or be longer than 24 hours. For example, for new and deleted sensitivity labels for Word, Excel, and PowerPoint on the web, you might see updates replicate within the hour. But for configurations that depend on populating a new group and group membership changes, or network replication latency and bandwidth restrictions, these changes might take 24-48 hours.
 
 ## :tada: CONGRATULATIONS!
-You've just created your first Sensitivity Label.  In the next module, you will Publish this Sensitivity Label to make it available across your apps and services.
-
-
+You've just published your first Label Policy!  In the next module, you will test this sensitivity label using a SharePoint document library and Word online.
 
 
 MODULE_SUMMARY
