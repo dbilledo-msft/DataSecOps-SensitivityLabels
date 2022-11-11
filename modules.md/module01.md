@@ -56,8 +56,16 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 8. On the Assign permissions page, select Add all users and groups in your organization and Choose permissions as Co-Author.
 
     ![image6](../images/module01/assignpermissions2.png)
-    
-On the Auto-labeling for files and emails page, select Next.
+
+9. On the Auto-labeling for files and emails page, click to enable Auto-labeling for files and emails and define the condition below:
+    - Click Add condition
+    - Click Content contains
+    - Click Add and select Sensitive info types
+    - Search for social and checkbox select U.S. Social Security Number and click Add
+    - Click Next
+
+    ![image7](../images/module01/autolabel1.png)
+
 
 On the Define protection settings for groups and sites page, select Next.
 
