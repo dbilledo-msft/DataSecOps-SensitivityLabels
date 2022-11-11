@@ -7,9 +7,9 @@
 You make your sensitivity labels available to users by publishing them in a sensitivity label policy that appears in a list on the Label policies page. Just like sensitivity labels, the order of the sensitivity label policies is important because it reflects their priority: The label policy with lowest priority is shown at the top of the list with the lowest order number, and the label policy with the highest priority is shown at the bottom of the list with the highest order number.
 
 A label policy consists of:
-    * A set of labels.
-    * The users and groups that will be assigned the policy with labels.
-    * The scope of the policy and policy settings for that scope (such as default label for files and emails).
+* A set of labels.
+* The users and groups that will be assigned the policy with labels.
+* The scope of the policy and policy settings for that scope (such as default label for files and emails).
 
 You can include a user in multiple label policies, and the user will get all the sensitivity labels and settings from those policies. If there is a conflict in settings from multiple policies, the settings from the policy with the highest priority (highest order number) is applied. In other words, the highest priority wins for each setting.
 
