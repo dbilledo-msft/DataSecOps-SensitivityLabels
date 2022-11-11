@@ -18,9 +18,9 @@ However, there are some scenarios where label and label policy changes can take 
 
     ![image1](../images/module01/spo1.png)
 
-2. On the **Label policies** page, select **Publish label** to start the **Create policy** configuration:
+2. Click **Documents**, **New**, and **Word Document** to create a new Word document in this doc library.
 
-    ![image1](../images/module01/labelpolicy1.png)
+    ![image2](../images/module01/spo2.png)
 
 3. On the **Choose sensitivity labels to publish** page, select the **Choose sensitivity labels to publish** link. Select the label (Highly Confidential) that you want to make available in apps and to services, and then select **Add**.
 
