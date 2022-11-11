@@ -1,6 +1,6 @@
 # Module 01 - CREATE SENSITIVITY LABELS
 
-[< Previous Module](../modules/module00.md) - **[Home](../README.md)** - [Next Module >](../modules/module02.md)
+[< Previous Module](../modules/module00.md) - **[Home](../README.md)** - [Next Module >](../modules.md/module02.md)
 
 ## :loudspeaker: Introduction
 
@@ -82,4 +82,4 @@ You've just created your first Sensitivity Label.  In the next module, you will 
 
 MODULE_SUMMARY
 
-[Continue >](../modules/module02.md)
+[Continue >](../modules.md/module02.md)
