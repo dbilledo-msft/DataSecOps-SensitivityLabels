@@ -32,11 +32,7 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 
 2. On the **Label policies** page, select **Publish label** to start the **Create policy** configuration:
 
-    ![image1](../images/module01/image1.png)
-
-    To enable sensitivity labels for Office files in SharePoint and OneDrive, click 'Turn on now' if the message appears below. This step has already been taken in our lab environement.
-
-    ![image2](../images//module01/image2.png)
+    ![image1](../images/module01/labelpolicy1.png)
 
 3. On the **Choose sensitivity labels to publish** page, select the **Choose sensitivity labels to publish** link. Select the labels that you want to make available in apps and to services, and then select **Add**.
 
