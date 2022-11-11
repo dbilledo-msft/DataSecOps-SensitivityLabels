@@ -34,7 +34,7 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 
     ![image1](../images/module01/labelpolicy1.png)
 
-3. On the **Choose sensitivity labels to publish** page, select the **Choose sensitivity labels to publish** link. Select the labels (Highly Confidential) that you want to make available in apps and to services, and then select **Add**.
+3. On the **Choose sensitivity labels to publish** page, select the **Choose sensitivity labels to publish** link. Select the label (Highly Confidential) that you want to make available in apps and to services, and then select **Add**.
 
 4. Review the selected labels and to make any changes, select **Edit**. Otherwise, select **Next**.
 
@@ -45,32 +45,11 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 
 6. On the Name your policy screen, give your new policy a name like HR Data policy and click next.  Completing the **Create policy** configuration automatically publishes the label policy. To make changes to a published policy, simply edit it. There's no specific publish or republish action for you to select.
 
-    ![image4](../images/module01/encrypt.png)
+## When to expect new labels and changes to take effect
 
-7. On the Encryption page, select Configure encryption settings, Assign permissions now, Never, and Always for the drop down choices, and then click Assign permissions under Assign permissions to specific users and groups.
+For labels and label policy settings, allow 24 hours for the changes to propagate through the services. There are many external dependencies that each have their own timing cycles, so it's a good idea to wait this 24-hour time period before you spend time troubleshooting labels and label policies for recent changes.
 
-    ![image5](../images/module01/encryptpage.png)
-
-8. On the Assign permissions page, select Add all users and groups in your organization and Choose permissions as Co-Author, click Save, and then click Next.
-
-    ![image6](../images/module01/assignpermissions2.png)
-
-9. On the Auto-labeling for files and emails page, click to enable Auto-labeling for files and emails and define the condition below:
-    - Click Add condition
-    - Click Content contains
-    - Click Add and select Sensitive info types
-    - Search for social and checkbox select U.S. Social Security Number and click Add
-    - Click Next
-
-    ![image7](../images/module01/autolabel1.png)
-
-10. On the Define protection settings for groups and sites page do not make any selections, select Next.
-
-11. On the Auto-labeling for schematized data assests(preview) page click to enable, click Choose sensitive info types, search for social security number, select U.S. Social Security Number (SSN), click Add, and select Next.
-
-    ![image8](../images/module01/autolabel2.png)
-
-12. On the Review your settings and finish page, select Create label.  The label will be created and when complete a message will display: Your sensitivity label was created.  Select Dont create a policy yet and then select Done.
+However, there are some scenarios where label and label policy changes can take effect much faster or be longer than 24 hours. For example, for new and deleted sensitivity labels for Word, Excel, and PowerPoint on the web, you might see updates replicate within the hour. But for configurations that depend on populating a new group and group membership changes, or network replication latency and bandwidth restrictions, these changes might take 24-48 hours.
 
 ## :tada: CONGRATULATIONS!
 You've just created your first Sensitivity Label.  In the next module, you will Publish this Sensitivity Label to make it available across your apps and services.
