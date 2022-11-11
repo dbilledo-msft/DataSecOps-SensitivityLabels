@@ -17,6 +17,10 @@ Before using Sensitivity Labels in Purview data maps, consent must be given to e
 
 ![image1](../images/module01/image1.png)
 
+To enable sensitivity labels for Office files in SharePoint and OneDrive, click 'Turn on now' if the message appears below. This step has already been taken in our lab environement.
+
+![image2](../images//module01/image2.png)
+
 ## :dart: Objectives
 
 * Create Sensitivity Label for Files and Schematized data assets
