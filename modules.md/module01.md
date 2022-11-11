@@ -35,13 +35,15 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 3. On the Information protection page, under the Labels tab select + Create a label.
 4. The New sensitivity label wizard will start. On the Name and create a tooltip for your label page for the Name, Description for admins and Description for users, enter the following information:
 
-    *  Name: Internal
-    *  Display name: Internal
-    *  Description for users: Internal sensitivity label.
-    *  Description for admins: Internal sensitivity label for Contoso.
+    *  Name: Highly Confidential
+    *  Display name: Highly Confidential
+    *  Description for users: Confidential data that requires protection 
+    *  Description for admins: Internal sensitivity label for Contoso
     *  Select Next.
 
-On the Define the scope for this label page, select the option Items which protects emails, files, and Power BI items.
+5. On the Define the scope for this label page, select the Items and Schematized data assets (preview).
+
+    ![image3](../images/module01/scope.png)
 
 Select Next.
 
