@@ -13,14 +13,14 @@ A label policy consists of:
 
 You can include a user in multiple label policies, and the user will get all the sensitivity labels and settings from those policies. If there is a conflict in settings from multiple policies, the settings from the policy with the highest priority (highest order number) is applied. In other words, the highest priority wins for each setting.
 
-In this task, we will add this new Sensitivity Label to an existing policy that has already been published.
+In this task, we will add our new Sensitivity Label to an existing policy that has already been published.
 
-## :thinking: Prerequisites
+//## :thinking: Prerequisites
 
-* Microsoft 365 E5/A5/G5
-* Microsoft 365 E5/A5/G5 Compliance
-* Microsoft 365 E5/A5/G5 Information Protection, and Governance
-* Office 365 E5, Enterprise Mobility + Security E5/A5/G5, and AIP Plan 2
+//* Microsoft 365 E5/A5/G5
+//* Microsoft 365 E5/A5/G5 Compliance
+//* Microsoft 365 E5/A5/G5 Information Protection, and Governance
+//* Office 365 E5, Enterprise Mobility + Security E5/A5/G5, and AIP Plan 2
 
 ## :dart: Objectives
 
