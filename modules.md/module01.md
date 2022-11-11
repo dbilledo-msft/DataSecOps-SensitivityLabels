@@ -27,21 +27,9 @@ To enable sensitivity labels for Office files in SharePoint and OneDrive, click 
 * Publish Label Policy
 * Test label in Microsoft 365
 
-## :bookmark_tabs: Table of Contents
-
-| #  | Section | Role |
-| --- | --- | --- |
-| 1 | [Create Sensivitiy Label](#1-create-sensitivity-label) | Global Admin or Compliance Admin |
-| 2 | [H2_TITLE](#jump-link) | Role |
-| 3 | [H2_TITLE](#jump-link) | Role |
-
-<div align="right"><a href="#module-00---title">↥ back to top</a></div>
-
 ## 1. Create Sensitivity Label
 
-SHORT_DESCRIPTION
-
-1. In Microsoft Edge, navigate to https://compliance.microsoft.com and log into the Microsoft Purview portal as XXXX@ZZZZZZ.onmicrosoft.com (where XXXX ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Your password should be provided by your lab hosting provider.
+1. In Microsoft Edge, navigate to https://compliance.microsoft.com and log into the Microsoft Purview portal as user@ZZZZZZ.onmicrosoft.com (where user and ZZZZZZ are your unique user and tenant ID provided by your lab hosting provider). Your password should be provided by your lab hosting provider.
 
 2. In the Microsoft Purview portal, on the left navigation pane, select Information protection.
 3. On the Information protection page, under the Labels tab select + Create a label.
