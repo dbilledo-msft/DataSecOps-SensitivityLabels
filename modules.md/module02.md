@@ -13,7 +13,7 @@ A label policy consists of:
 
 You can include a user in multiple label policies, and the user will get all the sensitivity labels and settings from those policies. If there is a conflict in settings from multiple policies, the settings from the policy with the highest priority (highest order number) is applied. In other words, the highest priority wins for each setting.
 
-In this task, we will add our new Sensitivity Label to an existing policy that has already been published.
+In this task, we will add our new Sensitivity Label to a new label policy.
 
 <!--## :thinking: Prerequisites
 
@@ -24,14 +24,13 @@ In this task, we will add our new Sensitivity Label to an existing policy that h
 
 ## :dart: Objectives
 
-* Add new Sensitivity Label to existing policy and Publish Label Policy
+* Create and Publish a new Label Policy for our Sensitivity Label created in the previous lab module.
 
 ## 1. Publish Label Policy
 
 1. From the [Microsoft Purivew Compliance Portal](https://compliance.microsoft.com), select Solutions > Information Protection > Label Policies
 
-2. In the Microsoft Purview portal, on the left navigation pane, select Information protection.
-    Before using Sensitivity Labels in Purview data maps, consent must be given to extend labeling to assets in Azure Purview. This step has already been taken in our lab environment but if you see the image below, you would need to click 'Turn on'.
+2. On the **Labels** page, select **+ Create a label** to start the new sensitivity label configuration:
 
     ![image1](../images/module01/image1.png)
 
