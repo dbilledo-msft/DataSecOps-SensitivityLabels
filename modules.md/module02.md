@@ -30,7 +30,7 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 
 1. From the [Microsoft Purivew Compliance Portal](https://compliance.microsoft.com), select Solutions > Information Protection > Label Policies
 
-2. On the **Labels** page, select **+ Create a label** to start the new sensitivity label configuration:
+2. On the **Label policies** page, select **Publish label** to start the **Create policy** configuration:
 
     ![image1](../images/module01/image1.png)
 
@@ -38,16 +38,11 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 
     ![image2](../images//module01/image2.png)
 
-3. On the Information protection page, under the Labels tab select + Create a label.
-4. The New sensitivity label wizard will start. On the Name and create a tooltip for your label page for the Name, Description for admins and Description for users, enter the following information:
+3. On the **Choose sensitivity labels to publish** page, select the **Choose sensitivity labels to publish** link. Select the labels that you want to make available in apps and to services, and then select **Add**.
 
-    *  Name: Highly Confidential
-    *  Display name: Highly Confidential
-    *  Description for users: Confidential data that requires protection 
-    *  Description for admins: Internal sensitivity label for Contoso
-    *  Select Next.
+4. Review the selected labels and to make any changes, select **Edit**. Otherwise, select **Next**.
 
-5. On the Define the scope for this label page, select the Items and Schematized data assets (preview), and click Next.
+5. Follow the prompts to configure the policy settings.
 
     ![image3](../images/module01/scope.png)
 
