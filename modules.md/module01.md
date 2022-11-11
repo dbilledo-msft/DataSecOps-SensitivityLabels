@@ -52,6 +52,10 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 7. On the Encryption page, select Configure encryption settings, Assign permissions now, Never, and Always for the drop down choices, and then click Assign permissions under Assign permissions to specific users and groups.
 
     ![image5](../images/module01/encryptpage.png)
+
+8. On the Assign permissions page, select Add all users and groups in your organization and Choose permissions as Co-Author.
+
+    ![image6](../images/module01/assignpermissions2.png)
     
 On the Auto-labeling for files and emails page, select Next.
 
