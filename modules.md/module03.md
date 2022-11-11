@@ -24,6 +24,8 @@ However, there are some scenarios where label and label policy changes can take 
 
 3. In the new Word document, type =rand(5) to populate the document with sample text. Below the final paragraph enter a social security number, for example:  SSN 472-35-8912
 
+    ![image3](../images/module01/spo3.png)
+
 4. Review the selected labels and to make any changes, select **Edit**. Otherwise, select **Next**.
 
 5. Follow the prompts to configure the policy settings.
