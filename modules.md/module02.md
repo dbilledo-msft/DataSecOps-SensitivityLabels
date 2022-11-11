@@ -4,10 +4,19 @@
 
 ## :loudspeaker: Introduction
 
-After creating a Sensitivity Lable it needs to be published to the appropriate users, apps, and services where the Sensitivity Label can be applied.  The act of publishing the label also makes it available to Purview Data Map.  In this task, your HR department has requested a sensitivity label to apply to HR data and files containing social security numbers. You will create a sensitivity label for Internal documents and Schematized data assets.  This label will be automatically applied to files that contain a matching condition in Microsft 365 apps, SharePoint, OneDrive for Business, and Microsoft Purview data maps.
+You make your sensitivity labels available to users by publishing them in a sensitivity label policy that appears in a list on the Label policies page. Just like sensitivity labels, the order of the sensitivity label policies is important because it reflects their priority: The label policy with lowest priority is shown at the top of the list with the lowest order number, and the label policy with the highest priority is shown at the bottom of the list with the highest order number.
+
+A label policy consists of:
+    * A set of labels.
+    * The users and groups that will be assigned the policy with labels.
+    * The scope of the policy and policy settings for that scope (such as default label for files and emails).
+
+You can include a user in multiple label policies, and the user will get all the sensitivity labels and settings from those policies. If there is a conflict in settings from multiple policies, the settings from the policy with the highest priority (highest order number) is applied. In other words, the highest priority wins for each setting.
+
+In this task, we will add this new Sensitivity Label to an existing policy that has already been published.
 
 ## :thinking: Prerequisites
-The following Microsoft 365 licenses are required to automatically apply sensitivity labels to your assets in Microsoft 365 and the Microsoft Purview Data Map:
+
 * Microsoft 365 E5/A5/G5
 * Microsoft 365 E5/A5/G5 Compliance
 * Microsoft 365 E5/A5/G5 Information Protection, and Governance
