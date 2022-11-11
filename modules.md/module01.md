@@ -74,7 +74,7 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
 12. On the Review your settings and finish page, select Create label.  The label will be created and when complete a message will display: Your sensitivity label was created.  Select Dont create a policy yet and then select Done.
 
-CONGRATULATIONS! You've just created your first Sensitivity Label.  In the next module, you will Publish this Sensitivity Label to make it available across your apps and services.
+## :tada: CONGRATULATIONS! You've just created your first Sensitivity Label.  In the next module, you will Publish this Sensitivity Label to make it available across your apps and services.
 
 
 
