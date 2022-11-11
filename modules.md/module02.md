@@ -26,7 +26,7 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 
 * Create and Publish a new Label Policy for our Sensitivity Label created in the previous lab module.
 
-## 1. Publish Label Policy
+## Publish Label Policy
 
 1. From the [Microsoft Purivew Compliance Portal](https://compliance.microsoft.com), select Solutions > Information Protection > Label Policies
 
