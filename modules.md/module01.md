@@ -41,16 +41,18 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
     *  Description for admins: Internal sensitivity label for Contoso
     *  Select Next.
 
-5. On the Define the scope for this label page, select the Items and Schematized data assets (preview).
+5. On the Define the scope for this label page, select the Items and Schematized data assets (preview), and click Next.
 
     ![image3](../images/module01/scope.png)
-
-Select Next.
 
 6. On the Choose protection settings for labeled items page, select Encrypt and click Next.
 
     ![image4](../images/module01/encrypt.png)
 
+7. On the Encryption page, select Configure encryption settings, Assign permissions now, Never, and Always for the drop down choices, and then click Assign permissions under Assign permissions to specific users and groups.
+
+    ![image5](../images/module01/encryptpage.png)
+    
 On the Auto-labeling for files and emails page, select Next.
 
 On the Define protection settings for groups and sites page, select Next.
