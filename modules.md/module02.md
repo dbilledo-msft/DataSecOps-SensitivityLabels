@@ -56,7 +56,4 @@ However, there are some scenarios where label and label policy changes can take 
 ## :tada: CONGRATULATIONS!
 You've just published your first Label Policy!  In the next module, you will test this sensitivity label using a SharePoint document library and Word online.
 
-
-MODULE_SUMMARY
-
-[Continue >](../modules/module03.md)
+[Continue >](../modules.md/module03.md)
