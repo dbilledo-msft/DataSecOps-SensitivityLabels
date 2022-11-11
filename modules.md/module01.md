@@ -19,9 +19,9 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 * Publish Label Policy
 * Test label in Microsoft 365
 
-## 1. Create Sensitivity Label
+## Create Sensitivity Label
 
-1. In Microsoft Edge, navigate to https://compliance.microsoft.com and log into the Microsoft Purview portal as user@ZZZZZZ.onmicrosoft.com (where user and ZZZZZZ are your unique user and tenant ID provided by your lab hosting provider). Your password should be provided by your lab hosting provider.
+1. In Microsoft Edge, navigate to https://compliance.microsoft.com and log into the Microsoft Purview portal as user@ZZZZZZ.onmicrosoft.com (where user and ZZZZZZ are your unique user and tenant ID provided by your lab proctor). Your password should be provided by your lab proctor.
 
 2. In the Microsoft Purview portal, on the left navigation pane, select Information protection.
     Before using Sensitivity Labels in Purview data maps, consent must be given to extend labeling to assets in Azure Purview. This step has already been taken in our lab environment but if you see the image below, you would need to click 'Turn on'.
