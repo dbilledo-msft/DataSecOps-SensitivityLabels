@@ -47,7 +47,9 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
 Select Next.
 
-On the Choose protection settings for labeled items page, select Next.
+6. On the Choose protection settings for labeled items page, select Encrypt and click Next.
+
+    ![image4](../images/module01/encrypt.png)
 
 On the Auto-labeling for files and emails page, select Next.
 
