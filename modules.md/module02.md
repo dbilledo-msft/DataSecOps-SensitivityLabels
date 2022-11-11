@@ -24,13 +24,11 @@ In this task, we will add our new Sensitivity Label to an existing policy that h
 
 ## :dart: Objectives
 
-* Create Sensitivity Label for Files and Schematized data assets
-* Publish Label Policy
-* Test label in Microsoft 365
+* Add new Sensitivity Label to existing policy and Publish Label Policy
 
-## 1. Create Sensitivity Label
+## 1. Publish Label Policy
 
-1. In Microsoft Edge, navigate to https://compliance.microsoft.com and log into the Microsoft Purview portal as user@ZZZZZZ.onmicrosoft.com (where user and ZZZZZZ are your unique user and tenant ID provided by your lab hosting provider). Your password should be provided by your lab hosting provider.
+1. From the [Microsoft Purivew Compliance Portal](https://compliance.microsoft.com), select Solutions > Information Protection > Label Policies
 
 2. In the Microsoft Purview portal, on the left navigation pane, select Information protection.
     Before using Sensitivity Labels in Purview data maps, consent must be given to extend labeling to assets in Azure Purview. This step has already been taken in our lab environment but if you see the image below, you would need to click 'Turn on'.
