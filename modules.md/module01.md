@@ -53,7 +53,7 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
     ![image5](../images/module01/encryptpage.png)
 
-8. On the Assign permissions page, select Add all users and groups in your organization and Choose permissions as Co-Author.
+8. On the Assign permissions page, select Add all users and groups in your organization and Choose permissions as Co-Author, click Save, and then click Next.
 
     ![image6](../images/module01/assignpermissions2.png)
 
@@ -66,10 +66,9 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
     ![image7](../images/module01/autolabel1.png)
 
+10. On the Define protection settings for groups and sites page do not make any selections, select Next.
 
-On the Define protection settings for groups and sites page, select Next.
-
-On the Auto-labeling for schematized data assests(preview) page, select Next.
+11. On the Auto-labeling for schematized data assests(preview) page click to enable, click Choose sensitive info types, search for social security number, select U.S. Social Security Number (SSN), click Add, and select Next.
 
 On the Review your settings and finish page, select Create label.
 
