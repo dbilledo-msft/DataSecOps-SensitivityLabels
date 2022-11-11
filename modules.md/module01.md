@@ -28,7 +28,7 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
     ![image1](../images/module01/image1.png)
 
-    To enable sensitivity labels for Office files in SharePoint and OneDrive, click 'Turn on now' if the message appears below. This step has already been taken in our lab environement.
+    To enable sensitivity labels for Office files in SharePoint and OneDrive, click 'Turn on now' if the message below appears in your tenant. This step has already been taken in our lab environement.
 
     ![image2](../images//module01/image2.png)
 
