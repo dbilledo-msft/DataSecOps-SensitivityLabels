@@ -59,4 +59,4 @@ You've just published your first Label Policy!  In the next module, you will tes
 
 MODULE_SUMMARY
 
-[Continue >](../modules/module00.md)
+[Continue >](../modules/module03.md)
