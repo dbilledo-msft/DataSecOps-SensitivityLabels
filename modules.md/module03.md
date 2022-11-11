@@ -22,7 +22,7 @@ However, there are some scenarios where label and label policy changes can take 
 
     ![image2](../images/module01/spo2.png)
 
-3. On the **Choose sensitivity labels to publish** page, select the **Choose sensitivity labels to publish** link. Select the label (Highly Confidential) that you want to make available in apps and to services, and then select **Add**.
+3. In the new Word document, type =rand(5) to populate the document with sample text. Below the final paragraph enter a social security number, for example:  SSN 472-35-8912
 
 4. Review the selected labels and to make any changes, select **Edit**. Otherwise, select **Next**.
 
