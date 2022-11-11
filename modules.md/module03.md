@@ -14,7 +14,9 @@ However, there are some scenarios where label and label policy changes can take 
 
 ## Create documents in a SPO doc library to test
 
-1. From the [Microsoft Purivew Compliance Portal](https://compliance.microsoft.com), select Solutions > Information Protection > Label Policies
+1. Navigate to the engineering site collection in SharePoint Online in your tenant. This is typically https://domain.sharepoint.com/sites/Engineering where domain is the name of your lab tenant.
+
+    ![image1](../images/module01/spo1.png)
 
 2. On the **Label policies** page, select **Publish label** to start the **Create policy** configuration:
 
