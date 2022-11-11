@@ -15,7 +15,7 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
 Before using Sensitivity Labels in Purview data maps, consent must be given to extend labeling to assets in Azure Purview. This step has already been taken in our lab environment but if you see the image below, you would need to click 'Turn on'.
 
-![image1](../images/module01/01.image1.png)
+(../images/module01/01.image1.png)
 
 ## :dart: Objectives
 
