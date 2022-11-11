@@ -1,5 +1,7 @@
 # Learn about sensitivity labels
 
+[Next Module >](../modules.md/module02.md)
+
 To get their work done, people in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall—it can roam everywhere, across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies.
 
 Sensitivity labels from Microsoft Purview Information Protection let you classify and protect your organization's data, while making sure that user productivity and their ability to collaborate isn't hindered.
@@ -186,3 +188,4 @@ Similarly for users in the legal department, who are assigned the third policy w
 > [!NOTE]
 > Remember: If there is a conflict of settings for a user who has multiple policies assigned to them, the setting from the assigned policy with the highest order number is applied.
 
+[Continue >](../modules.md/module01.md)
