@@ -41,7 +41,8 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 5. Follow the prompts to configure the policy settings.
     The policy settings that you see match the scope of the labels that you selected. For example, if you selected labels that have just the **Items** scope, you don't see the policy settings **Apply this label by default to groups and sites** and **Require users to apply a label to their groups and sites**.
     For labels configured for **Microsoft Purview Data Map assets (preview)**: These labels don't have any associated policy settings.
-    For this lab we will accept the default values and not make any selections until we get to the Name your policy screen.
+
+    **For this lab we will accept the default values and not make any selections until we get to the Name your policy screen.**
 
 6. On the Name your policy screen, give your new policy a name like HR Data policy and click next.  Completing the **Create policy** configuration automatically publishes the label policy. To make changes to a published policy, simply edit it. There's no specific publish or republish action for you to select.
 
