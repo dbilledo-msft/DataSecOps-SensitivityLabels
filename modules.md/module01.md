@@ -77,9 +77,4 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 ## :tada: CONGRATULATIONS!
 You've just created your first Sensitivity Label.  In the next module, you will Publish this Sensitivity Label to make it available across your apps and services.
 
-
-
-
-MODULE_SUMMARY
-
 [Continue >](../modules.md/module02.md)
