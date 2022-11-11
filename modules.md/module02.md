@@ -15,12 +15,12 @@ You can include a user in multiple label policies, and the user will get all the
 
 In this task, we will add our new Sensitivity Label to an existing policy that has already been published.
 
-//## :thinking: Prerequisites
+<!--## :thinking: Prerequisites
 
-//* Microsoft 365 E5/A5/G5
-//* Microsoft 365 E5/A5/G5 Compliance
-//* Microsoft 365 E5/A5/G5 Information Protection, and Governance
-//* Office 365 E5, Enterprise Mobility + Security E5/A5/G5, and AIP Plan 2
+* Microsoft 365 E5/A5/G5
+* Microsoft 365 E5/A5/G5 Compliance
+* Microsoft 365 E5/A5/G5 Information Protection, and Governance
+* Office 365 E5, Enterprise Mobility + Security E5/A5/G5, and AIP Plan 2 -->
 
 ## :dart: Objectives
 
