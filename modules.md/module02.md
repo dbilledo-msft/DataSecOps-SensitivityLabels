@@ -1,10 +1,10 @@
 # Module 02 - PUBLISH SENSITIVITY LABELS
 
-[< Previous Module](../modules/module00.md) - **[Home](../README.md)** - [Next Module >](../modules/module00.md)
+[< Previous Module](../modules.md/module01.md) - **[Home](../modules.md/module00.md)** - [Next Module >](../modules.md/module03.md)
 
 ## :loudspeaker: Introduction
 
-You make your sensitivity labels available to users by publishing them in a sensitivity label policy that appears in a list on the Label policies page. Just like sensitivity labels, the order of the sensitivity label policies is important because it reflects their priority: The label policy with lowest priority is shown at the top of the list with the lowest order number, and the label policy with the highest priority is shown at the bottom of the list with the highest order number.
+You make your sensitivity labels available to users by publishing them in a sensitivity label policy that appears in a list on the Label policies page. Just like sensitivity labels, the order of the sensitivity label policies is important because it reflects their priority. The label policy with lowest priority is shown at the top of the list with the lowest order number, and the label policy with the highest priority is shown at the bottom of the list with the highest order number.
 
 A label policy consists of:
 * A set of labels.
