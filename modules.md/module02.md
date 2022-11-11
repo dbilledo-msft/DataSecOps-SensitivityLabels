@@ -34,15 +34,16 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 
     ![image1](../images/module01/labelpolicy1.png)
 
-3. On the **Choose sensitivity labels to publish** page, select the **Choose sensitivity labels to publish** link. Select the labels that you want to make available in apps and to services, and then select **Add**.
+3. On the **Choose sensitivity labels to publish** page, select the **Choose sensitivity labels to publish** link. Select the labels (Highly Confidential) that you want to make available in apps and to services, and then select **Add**.
 
 4. Review the selected labels and to make any changes, select **Edit**. Otherwise, select **Next**.
 
 5. Follow the prompts to configure the policy settings.
+    The policy settings that you see match the scope of the labels that you selected. For example, if you selected labels that have just the **Items** scope, you don't see the policy settings **Apply this label by default to groups and sites** and **Require users to apply a label to their groups and sites**.
+    For labels configured for **Microsoft Purview Data Map assets (preview)**: These labels don't have any associated policy settings.
+    For this lab we will accept the default values and not make any selections until we get to the Name your policy screen.
 
-    ![image3](../images/module01/scope.png)
-
-6. On the Choose protection settings for labeled items page, select Encrypt and click Next.
+6. On the Name your policy screen, give your new policy a name like HR Data policy and click next.  Completing the **Create policy** configuration automatically publishes the label policy. To make changes to a published policy, simply edit it. There's no specific publish or republish action for you to select.
 
     ![image4](../images/module01/encrypt.png)
 
