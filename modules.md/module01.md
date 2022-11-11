@@ -72,71 +72,12 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 
     ![image8](../images/module01/autolabel2.png)
 
-12. On the Review your settings and finish page, select Create label.
+12. On the Review your settings and finish page, select Create label.  The label will be created and when complete a message will display: Your sensitivity label was created.  Select Dont create a policy yet and then select Done.
 
-The label will be created and when complete a message will display: Your sensitivity label was created
-
-Select Dont create a policy yet and then select Done.
+CONGRATULATIONS! You've just created your first Sensitivity Label.  In the next module, you will Publish this Sensitivity Label to make it available across your apps and services.
 
 
 
-3. STEP_PLACEHOLDER
-
-> :bulb: **Did you know?**
->
-> Did you know sections can be used to help articulate a concept, provide additional clarity, etc.
-
-```text
-Values that need to be copied/pasted should be placed in code snippets
-```
-
-<div align="right"><a href="#module-00---title">↥ back to top</a></div>
-
-## 2. H2_TITLE
-
-SHORT_DESCRIPTION
-
-1. STEP_PLACEHOLDER
-
-2. STEP_PLACEHOLDER
-
-3. STEP_PLACEHOLDER
-
-<div align="right"><a href="#module-00---title">↥ back to top</a></div>
-
-## 3. H2_TITLE
-
-SHORT_DESCRIPTION
-
-1. STEP_PLACEHOLDER
-
-2. STEP_PLACEHOLDER
-
-3. STEP_PLACEHOLDER
-
-<div align="right"><a href="#module-00---title">↥ back to top</a></div>
-
-## :mortar_board: Knowledge Check
-
-1. PLACEHOLDER_KNOWLEDGE_CHECK_QUESTION
-
-    A ) Asset Type  
-    B ) Classification  
-    C ) Size  
-
-2. PLACEHOLDER_KNOWLEDGE_CHECK_QUESTION
-
-    A ) True  
-    B ) False  
-
-3. PLACEHOLDER_KNOWLEDGE_CHECK_QUESTION
-
-    A ) True  
-    B ) False  
-
-<div align="right"><a href="#module-00---title">↥ back to top</a></div>
-
-## :tada: Summary
 
 MODULE_SUMMARY
 
