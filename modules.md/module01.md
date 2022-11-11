@@ -13,14 +13,6 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 * Microsoft 365 E5/A5/G5 Information Protection, and Governance
 * Office 365 E5, Enterprise Mobility + Security E5/A5/G5, and AIP Plan 2
 
-Before using Sensitivity Labels in Purview data maps, consent must be given to extend labeling to assets in Azure Purview. This step has already been taken in our lab environment but if you see the image below, you would need to click 'Turn on'.
-
-![image1](../images/module01/image1.png)
-
-To enable sensitivity labels for Office files in SharePoint and OneDrive, click 'Turn on now' if the message appears below. This step has already been taken in our lab environement.
-
-![image2](../images//module01/image2.png)
-
 ## :dart: Objectives
 
 * Create Sensitivity Label for Files and Schematized data assets
@@ -32,6 +24,14 @@ To enable sensitivity labels for Office files in SharePoint and OneDrive, click 
 1. In Microsoft Edge, navigate to https://compliance.microsoft.com and log into the Microsoft Purview portal as user@ZZZZZZ.onmicrosoft.com (where user and ZZZZZZ are your unique user and tenant ID provided by your lab hosting provider). Your password should be provided by your lab hosting provider.
 
 2. In the Microsoft Purview portal, on the left navigation pane, select Information protection.
+    Before using Sensitivity Labels in Purview data maps, consent must be given to extend labeling to assets in Azure Purview. This step has already been taken in our lab environment but if you see the image below, you would need to click 'Turn on'.
+
+    ![image1](../images/module01/image1.png)
+
+    To enable sensitivity labels for Office files in SharePoint and OneDrive, click 'Turn on now' if the message appears below. This step has already been taken in our lab environement.
+
+    ![image2](../images//module01/image2.png)
+
 3. On the Information protection page, under the Labels tab select + Create a label.
 4. The New sensitivity label wizard will start. On the Name and create a tooltip for your label page for the Name, Description for admins and Description for users, enter the following information:
 
