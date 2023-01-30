@@ -14,10 +14,6 @@ In this module, you'll walk through how to register and scan data sources. You'l
 * An Azure Data Lake Storage Gen2 account (see [module 00](../modules/module00.md)).
 * A Microsoft Purview account (see [module 01](../modules/module01.md)).
 
-## :hammer: Tools
-
-* [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) (Download and Install)
-
 ## :dart: Objectives
 
 * Create a collection.
