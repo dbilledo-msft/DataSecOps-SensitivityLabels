@@ -17,7 +17,7 @@ To apply sensitivity labels, users must be signed in with their Microsoft 365 wo
 >
 > If you use the Azure Information Protection unified labeling client and scanner, see the [Azure Information Protection Unified Labeling client](https://learn.microsoft.com/en-us/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history).
 
-You can use sensitivity labels to:
+You can use **sensitivity** labels to:
   
 - **Provide protection settings that include encryption and content markings.** For example, apply a "Confidential" label to a document or email, and that label encrypts the content and applies a "Confidential" watermark. Content markings include headers and footers as well as watermarks, and encryption can also restrict what actions authorized people can take on the content.
 
