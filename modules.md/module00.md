@@ -1,6 +1,6 @@
 # Learn about sensitivity labels
 
-[Next Module >](../modules.md/module02.md)
+[Next Module >](../modules.md/module01.md)
 
 To get their work done, people in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall—it can roam everywhere, across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies.
 
