@@ -1,4 +1,4 @@
-# Module 05 - Search & Browse
+# Module 03 - Search & Browse
 
 [< Previous Module](../modules/module02b.md) - **[Home](../README.md)** - [Next Module >](../modules/module04.md)
 
@@ -36,11 +36,11 @@ In this module, you'll learn to edit technical metadata by adding definitions an
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Catalog** > **Home**, type the asterisk character (**\***) into the search bar, and hit **Enter**.
 
-    ![Search Wildcard](../images/module05/03.01-search-wildcard.png)
+    ![Search Wildcard](../images/module03/03.01-search-wildcard.png)
 
 2. Filter the search results by **Classification** (e.g. **Country/Region**) and click the hyperlinked asset name to view the details (e.g. `QueriesByState`).
 
-    ![Filter by Classification](../images/module05/03.02-search-filter.png)
+    ![Filter by Classification](../images/module03/03.02-search-filter.png)
 
 > :bulb: **Did you know?**
 >
@@ -52,7 +52,7 @@ In this module, you'll learn to edit technical metadata by adding definitions an
 
 1. Click **Edit** to modify the asset details.
 
-    ![Edit Asset](../images/module05/03.03-asset-edit.png)
+    ![Edit Asset](../images/module03/03.03-asset-edit.png)
 
 2. Update the **Description** by copying and pasting the sample text below.
 
@@ -60,11 +60,11 @@ In this module, you'll learn to edit technical metadata by adding definitions an
     This dataset was curated from the Bing search logs (desktop users only) over the period of Jan 1st, 2020 – (Current Month - 1). Only searches that were issued many times by multiple users were included. The dataset includes queries from all over the world that had an intent related to the Coronavirus or Covid-19. In some cases this intent is explicit in the query itself (e.g., “Coronavirus updates Seattle”), in other cases it is implicit , e.g. “Shelter in place”
     ```
 
-    ![Update Description](../images/module05/03.04-asset-description.png)
+    ![Update Description](../images/module03/03.04-asset-description.png)
 
 3. Assign a **Classification** (e.g. `World Cities`) using the drop-down menu.
 
-    ![Update Classification](../images/module05/03.05-asset-classification.png)
+    ![Update Classification](../images/module03/03.05-asset-classification.png)
 
 4. Navigate to the **Schema** tab and update the **Asset description** for each column using the sample text below.
 
@@ -72,7 +72,7 @@ In this module, you'll learn to edit technical metadata by adding definitions an
     >
     > **Classifications** and **Glossary Terms** can be assigned at the asset level (e.g. a Table within a Database) as well as at the schema level (e.g. a Column within a Table Schema).
 
-    ![Update Schema](../images/module05/03.06-asset-schema.png)
+    ![Update Schema](../images/module03/03.06-asset-schema.png)
 
     **Date**
 
@@ -121,11 +121,11 @@ In this module, you'll learn to edit technical metadata by adding definitions an
     >
     > For assets in which you are tagged as a **Contact**, these will appear on the home screen (Data catalog), under **My items**.
 
-    ![Update Contacts](../images/module05/03.07-asset-contacts.png)
+    ![Update Contacts](../images/module03/03.07-asset-contacts.png)
 
 6. To see other assets within the same path, navigate to the **Related** tab.
 
-    ![Related Assets](../images/module05/03.08-asset-related.png)
+    ![Related Assets](../images/module03/03.08-asset-related.png)
 
 <div align="right"><a href="#module-03---search--browse">↥ back to top</a></div>
 
@@ -135,19 +135,19 @@ While the search experience is ideal for keyword based discovery, the Microsoft 
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Catalog** and click **Browse**.
 
-    ![Browse Assets](../images/module05/03.09-home-browse.png)
+    ![Browse Assets](../images/module03/03.09-home-browse.png)
 
 2. Switch to the **By source type** tab and select a **source** (e.g. `Azure Data Lake Storage Gen2`).
 
-    ![ADLS Gen2](../images/module05/03.10-browse-adls.png)
+    ![ADLS Gen2](../images/module03/03.10-browse-adls.png)
 
 3. Select an **account** (e.g. `pvlab{randomId}adls`).
 
-    ![ADLS Gen2 Account](../images/module05/03.11-browse-account.png)
+    ![ADLS Gen2 Account](../images/module03/03.11-browse-account.png)
 
 4. Select a **container** (e.g. `raw`).
 
-    ![ADLS Gen2 Container](../images/module05/03.12-browse-container.png)
+    ![ADLS Gen2 Container](../images/module03/03.12-browse-container.png)
 
 <div align="right"><a href="#module-03---search--browse">↥ back to top</a></div>
 
@@ -157,23 +157,23 @@ Microsoft Purview allows us to perform certain operations (add/replace/remove) a
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Catalog** > **Home**, type the asterisk character (**\***) into the search bar, and hit **Enter**.
 
-    ![Search Wildcard](../images/module05/03.01-search-wildcard.png)
+    ![Search Wildcard](../images/module03/03.01-search-wildcard.png)
 
 2. Hover your mouse over an item in the list to reveal the checkbox on the right-hand side. Select five items and click **View selected**.
 
-    ![View Selected](../images/module05/03.13-bulk-view.png)
+    ![View Selected](../images/module03/03.13-bulk-view.png)
 
 3. Click **Bulk edit**.
 
-    ![Bulk Edit](../images/module05/03.14-bulk-edit.png)
+    ![Bulk Edit](../images/module03/03.14-bulk-edit.png)
 
 4. Set the **Attribute** to `Owner`, set **Operation** to `Add`, select one or more users in your organization, and click **Apply**.
 
-    ![Apply Changes](../images/module05/03.15-bulk-apply.png)
+    ![Apply Changes](../images/module03/03.15-bulk-apply.png)
 
 5. Click **Deselect all and close**.
 
-    ![Deselect](../images/module05/03.16-bulk-deselect.png)
+    ![Deselect](../images/module03/03.16-bulk-deselect.png)
 
 <div align="right"><a href="#module-03---search--browse">↥ back to top</a></div>
 
@@ -183,7 +183,7 @@ Microsoft Purview allows us to perform certain operations (add/replace/remove) a
 
 1. There are a number of **attributes** that we can use to narrow our search results via the **filter pane**, which of the following is **not** available as a quick filter?
 
-    A ) Source Type  
+    A ) Asset Type  
     B ) Classification  
     C ) Size  
 
