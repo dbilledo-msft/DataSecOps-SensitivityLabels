@@ -1,6 +1,6 @@
 # Module 03 - TEST SENSITIVITY LABEL IN SHAREPOINT
 
-[< Previous Module](../modules.md/module02.md) - **[Home](../modules.md/module00.md)** - [Next Module >](../modules.md/module03.md)
+[< Previous Module](../modules.md/module02.md) - **[Home](../modules.md/module00.md)** - [Next Module >](../modules.md/module04a.md)
 
 ## :loudspeaker: Introduction
 
@@ -31,4 +31,4 @@ However, there are some scenarios where label and label policy changes can take 
 ## :tada: CONGRATULATIONS!
 In this lab you tested the Sensitivity Label and Label Policy to confirm it has been configured properly and is successfully labeling when finding a matching condition in the file.
 
-[Continue >](../modules/module00.md)
+[Continue >](../modules/module04a.md)
