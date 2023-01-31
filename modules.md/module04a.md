@@ -1,6 +1,6 @@
 # Module 04 - Register & Scan (ADLS Gen2)
 
-[< Previous Module](../modules/module01.md) - **[Home](../README.md)** - [Next Module >](../modules/module03b.md)
+[< Previous Module](../modules/module03.md) - **[Home](../README.md)** - [Next Module >](../modules/module05.md)
 
 ## :loudspeaker: Introduction
 
@@ -233,4 +233,4 @@ Before proceeding with the following steps, you will need to:
 
 This module provided an overview of how to create a collection, register a source, and trigger a scan.
 
-[Continue >](../modules/module03b.md)
+[Continue >](../modules/module05.md)
