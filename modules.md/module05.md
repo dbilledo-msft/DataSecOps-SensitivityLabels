@@ -1,6 +1,6 @@
 # Module 05 - Search & Browse
 
-[< Previous Module](../modules/module04a.md) - **[Home](../README.md)** - [Next Module >](../modules/module04.md)
+[< Previous Module](../modules.md/module04a.md) - **[Home](../README.md)** - [Next Module >](../modules.md/module04.md)
 
 ## :loudspeaker: Introduction
 
