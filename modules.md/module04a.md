@@ -1,4 +1,4 @@
-# Module 04A - Register & Scan (ADLS Gen2)
+# Module 04 - Register & Scan (ADLS Gen2)
 
 [< Previous Module](../modules/module01.md) - **[Home](../README.md)** - [Next Module >](../modules/module03b.md)
 
@@ -47,27 +47,27 @@ In this module, you'll walk through how to register and scan data sources. You'l
 
 1. Navigate to your Azure Data Lake Storage Gen2 account (e.g. `pvlab{randomId}adls`) and select **Access Control (IAM)** from the left navigation menu.
 
-    ![Microsoft Purview](../images/module03/02.01-storage-access.png)
+    ![Microsoft Purview](../images/module04/02.01-storage-access.png)
 
 2. Click **Add role assignment**.
 
-    ![Microsoft Purview](../images/module03/02.02-storage-addrole.png)
+    ![Microsoft Purview](../images/module04/02.02-storage-addrole.png)
 
 3. Filter the list of roles by searching for `Storage Blob Data Reader`, click the row to select the role, and then click **Next**.
 
-    ![Access Control Role](../images/module03/02.03-access-role.png)
+    ![Access Control Role](../images/module04/02.03-access-role.png)
 
 4. Under **Assign access to**, select **Managed identity**, click **+ Select members**, select **Microsoft Purview account** from the **Managed Identity** drop-down menu, select the managed identity for your Microsoft Purview account (e.g. `pvlab-{randomId}-pv`), click **Select**. Finally, click **Review + assign**.
 
-    ![Access Control Members](../images/module03/02.05-access-members.png)
+    ![Access Control Members](../images/module04/02.05-access-members.png)
 
 5. Click **Review + assign** once more to perform the role assignment.
 
-    ![Access Control Assign](../images/module03/02.06-access-assign.png)
+    ![Access Control Assign](../images/module04/02.06-access-assign.png)
 
 6. To confirm the role has been assigned, navigate to the **Role assignments** tab and filter the **Scope** to `This resource`. You should be able to see that the Microsoft Purview managed identity has been granted the **Storage Blob Data Reader** role.
 
-    ![Role Assignment](../images/module03/02.11-role-assignment.png)
+    ![Role Assignment](../images/module04/02.11-role-assignment.png)
 
 <div align="right"><a href="#module-02a---register--scan-adls-gen2">↥ back to top</a></div>
 
@@ -83,35 +83,35 @@ Before proceeding with the following steps, you will need to:
 
 2. Locate the downloaded zip file via File Explorer and unzip the contents by right-clicking the file and selecting **Extract All...**.
 
-    ![Extract zip file](../images/module03/02.07-explorer-unzip.png)
+    ![Extract zip file](../images/module04/02.07-explorer-unzip.png)
 
 3. Click **Extract**.
 
-    ![Extract](../images/module03/02.08-explorer-extract.png)
+    ![Extract](../images/module04/02.08-explorer-extract.png)
 
 4. Open Azure Storage Explorer, click on the Toggle Explorer icon, expand the Azure Subscription to find your Azure Storage Account. Right-click on Blob Containers and select **Create Blob Container**. Name the container `raw`.
 
-    ![Create Blob Container](../images/module03/02.12-explorer-container.png)
+    ![Create Blob Container](../images/module04/02.12-explorer-container.png)
 
 5. With the container name selected, click on the **Upload** button and select **Upload Folder...**.
 
-    ![Upload Folder](../images/module03/02.13-explorer-upload.png)
+    ![Upload Folder](../images/module04/02.13-explorer-upload.png)
 
 6. Click on the **ellipsis** to select a folder.
 
-    ![Browse](../images/module03/02.14-explorer-browse.png)
+    ![Browse](../images/module04/02.14-explorer-browse.png)
 
 7. Navigate to the extracted **BingCoronavirusQuerySet** folder (e.g. Downloads\BingCoronavirusQuerySet) and click **Select Folder**.
 
-    ![Folder](../images/module03/02.15-explorer-folder.png)
+    ![Folder](../images/module04/02.15-explorer-folder.png)
 
 8. Click **Upload**.
 
-    ![Upload](../images/module03/02.16-explorer-data.png)
+    ![Upload](../images/module04/02.16-explorer-data.png)
 
 9. Monitor the **Activities** until the transfer is complete.
 
-    ![Transfer Complete](../images/module03/02.17-explorer-transfer.png)
+    ![Transfer Complete](../images/module04/02.17-explorer-transfer.png)
 
 <div align="right"><a href="#module-02a---register--scan-adls-gen2">↥ back to top</a></div>
 
@@ -125,11 +125,11 @@ Before proceeding with the following steps, you will need to:
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Collections**, and click  **Add a collection**.
 
-    ![New Collection](../images/module03/02.18-sources-collection.png)
+    ![New Collection](../images/module04/02.18-sources-collection.png)
 
 2. Provide the collection a **Name** (e.g. `Contoso`) and click **Create**.
 
-    ![New Collection](../images/module03/02.76-collection-create.png)
+    ![New Collection](../images/module04/02.76-collection-create.png)
 
 <div align="right"><a href="#module-02a---register--scan-adls-gen2">↥ back to top</a></div>
 
@@ -137,11 +137,11 @@ Before proceeding with the following steps, you will need to:
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and click on **Register**.
 
-    ![Register](../images/module03/02.20-sources-register.png)
+    ![Register](../images/module04/02.20-sources-register.png)
 
 2. Search for `Data Lake`, select **Azure Data Lake Storage Gen2**, and click **Continue**.
 
-    ![Sources](../images/module03/02.21-sources-adls.png)
+    ![Sources](../images/module04/02.21-sources-adls.png)
 
 3. Select the **Azure subscription**, **Storage account name**, **Collection**, and click **Register**.
 
@@ -149,7 +149,7 @@ Before proceeding with the following steps, you will need to:
     >
     > At this point, we have simply registered a data source. Assets are not written to the catalog until after a scan has finished running.
 
-    ![Source Properties](../images/module03/02.22-sources-properties.png)
+    ![Source Properties](../images/module04/02.22-sources-properties.png)
 
 <div align="right"><a href="#module-02a---register--scan-adls-gen2">↥ back to top</a></div>
 
@@ -157,15 +157,15 @@ Before proceeding with the following steps, you will need to:
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and within the Azure Data Lake Storage Gen2 tile, click the **New Scan** button.
 
-    ![New Scan](../images/module03/02.23-scan-new.png)
+    ![New Scan](../images/module04/02.23-scan-new.png)
 
 2. Click **Test connection** to ensure the Microsoft Purview managed identity has the appropriate level of access to read the Azure Data Lake Storage Gen2 account. If successful, click **Continue**.
 
-    ![Test Connection](../images/module03/02.24-scan-test.png)
+    ![Test Connection](../images/module04/02.24-scan-test.png)
 
 3. Expand the hierarchy to see which assets will be within the scans scope, and click **Continue**.
 
-    ![Scan Scope](../images/module03/02.25-scan-scope.png)
+    ![Scan Scope](../images/module04/02.25-scan-scope.png)
 
 4. Select the system default scan rule set and click **Continue**.
 
@@ -173,23 +173,23 @@ Before proceeding with the following steps, you will need to:
     >
     > [Scan Rule Sets](https://docs.microsoft.com/azure/purview/create-a-scan-rule-set) determine which **File Types** and **Classification Rules** are in scope. If you want to include a custom file type or custom classification rule as part of a scan, a custom scan rule set will need to be created.
 
-    ![Scan rule set](../images/module03/02.26-scan-ruleset.png)
+    ![Scan rule set](../images/module04/02.26-scan-ruleset.png)
 
 5. Select **Once** and click **Continue**.
 
-    ![Scan Trigger](../images/module03/02.27-scan-trigger.png)
+    ![Scan Trigger](../images/module04/02.27-scan-trigger.png)
 
 6. Click **Save and Run**.
 
-    ![Run Scan](../images/module03/02.28-scan-run.png)
+    ![Run Scan](../images/module04/02.28-scan-run.png)
 
 7. To monitor the progress of the scan run, click **View Details**.
 
-    ![View Details](../images/module03/02.29-sources-details.png)
+    ![View Details](../images/module04/02.29-sources-details.png)
 
 8. Click **Refresh** to periodically update the status of the scan. Note: It will take approximately 5 to 10 minutes to complete.
 
-    ![Monitor Scan](../images/module03/02.30-sources-refresh.png)
+    ![Monitor Scan](../images/module04/02.30-sources-refresh.png)
 
 <div align="right"><a href="#module-02a---register--scan-adls-gen2">↥ back to top</a></div>
 
@@ -197,11 +197,11 @@ Before proceeding with the following steps, you will need to:
 
 1. Navigate to the **Microsoft Purview Governance Portal** > **Data catalog**, and perform a wildcard search by typing the asterisk character (`*`) into the search box and hitting the Enter key to submit the query.
 
-    ![ALT](../images/module03/02.80-wildcard-search.png)
+    ![ALT](../images/module04/02.80-wildcard-search.png)
 
 2. You should be able to see a list of assets within the search results, which is a result of the scan.
 
-    ![ALT](../images/module03/02.72-search-wildcard.png)
+    ![ALT](../images/module04/02.72-search-wildcard.png)
 
 <div align="right"><a href="#module-02a---register--scan-adls-gen2">↥ back to top</a></div>
 
