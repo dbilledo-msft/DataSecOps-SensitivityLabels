@@ -19,7 +19,7 @@ Microsoft Purview combines the former Azure Purview and Microsoft 365 compliance
 * Microsoft 365 E5/A5/G5 Information Protection, and Governance
 * Office 365 E5, Enterprise Mobility + Security E5/A5/G5, and AIP Plan 2
 * You must have the necessary privileges within your Azure and M365 subscription to create resources, perform role assignments, register resource providers (if required), etc.
-* Purview service created as per [Lab Environment](./modules.md/PurviewSetup.md)
+* Purview service created as per [Azure Purview Environment Setup](./modules.md/AzurePurviewSetup.md)
 
 
 ## :books: Preface
