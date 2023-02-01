@@ -1,6 +1,6 @@
 # Module 03 - TEST SENSITIVITY LABEL IN SHAREPOINT
 
-[< Previous Module](../modules.md/module02.md) - **[Home](../modules.md/module00.md)** - [Next Module >](../modules.md/module04a.md)
+[< Previous Module](../modules.md/module02.md) - **[Home](../README.md)** - [Next Module >](../modules.md/module04a.md)
 
 ## :loudspeaker: Introduction
 
