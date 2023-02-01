@@ -35,8 +35,8 @@ The following Microsoft 365 licenses are required to automatically apply sensiti
 3. On the Information protection page, under the Labels tab select + Create a label.
 4. The New sensitivity label wizard will start. On the Name and create a tooltip for your label page for the Name, Description for admins and Description for users, enter the following information:
 
-    *  Name: Highly Confidential
-    *  Display name: Highly Confidential
+    *  Name: Confidential Workshop PII
+    *  Display name: Confidential Workshop PII
     *  Description for users: Confidential data that requires protection 
     *  Description for admins: Internal sensitivity label for Contoso
     *  Select Next.
