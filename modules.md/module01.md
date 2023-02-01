@@ -1,6 +1,6 @@
 # Module 01 - CREATE SENSITIVITY LABELS
 
-[< Previous Module](../modules.md/module00.md) - **[Home](../modules.md/module00.md)** - [Next Module >](../modules.md/module02.md)
+[< Previous Module](../modules.md/PrefaceCompliancePortal.md) - **[Home](../modules.md/module00.md)** - [Next Module >](../modules.md/module02.md)
 
 ## :loudspeaker: Introduction
 
