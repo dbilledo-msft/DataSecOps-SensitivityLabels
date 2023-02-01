@@ -32,7 +32,7 @@ Microsoft Purview combines the former Azure Purview and Microsoft 365 compliance
 1. [Compliance Portal - Create Sensitivity Labels](./modules.md/module01.md)
 2. [Compliance Portal - Publish Sensitivity Labels by creating Label Policy](./modules.md/module02.md)
 3. [Compliance Portal - Test Sensitivity Labels in Sharepoint](./modules.md/module03.md)
-4. [Governance Portal - Register & Scan](./modules.md/module04a.md)
+4. [Governance Portal - Register & Scan](./modules.md/module04.md)
 5. [Governance Portal - Search and Browse](./modules.md/module05.md)
 
 
