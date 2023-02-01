@@ -24,8 +24,8 @@ Microsoft Purview combines the former Azure Purview and Microsoft 365 compliance
 
 ## :books: Preface
 
-* [Preface: Introduction to Data Governance and Purview governance portal](./modules.md/preface.md)
-* [Preface: Introduction Sensitivity Lables](./modules.md/module00.md)
+* [Preface: Introduction to Data Governance and Purview governance portal](./modules.md/PrefaceGovernancePortal.md)
+* [Preface: Introduction Sensitivity Lables](./modules.md/PrefaceCompliancePortal.md)
 
 ## :books: Learning Modules
 
