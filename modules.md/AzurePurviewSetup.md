@@ -1,4 +1,4 @@
-# Module 00 - Lab Environment Setup
+# Module 00 - Azure Governance Portal Setup
 
 **[Home](../README.md)** - [Next Module >](../modules.md/module01.md)
 
