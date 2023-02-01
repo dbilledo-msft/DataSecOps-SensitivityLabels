@@ -1,6 +1,6 @@
 # Module 02 - PUBLISH SENSITIVITY LABELS BY CREATING A LABEL POLICY
 
-[< Previous Module](../modules.md/module01.md) - **[Home](../modules.md/module00.md)** - [Next Module >](../modules.md/module03.md)
+[< Previous Module](../modules.md/module01.md) - **[Home](../README.md)** - [Next Module >](../modules.md/module03.md)
 
 ## :loudspeaker: Introduction
 
