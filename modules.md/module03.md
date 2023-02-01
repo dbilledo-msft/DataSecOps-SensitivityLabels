@@ -14,7 +14,7 @@ However, there are some scenarios where label and label policy changes can take 
 
 ## Create documents in a SPO doc library to test
 
-1. Navigate to the engineering site collection in SharePoint Online in your tenant. This is typically https://domain.sharepoint.com/sites/Engineering where domain is the name of your lab tenant.
+1. Navigate to the engineering site collection in SharePoint Online in your tenant. This is typically https://domain.sharepoint.com/sites/Engineering where domain is the name of your lab tenant.  Alternately you can navigate to https://portal.office.com and select the grid icon in the upper left, and select SharePoint.
 
     ![image1](../images/module01/spo1.png)
 
