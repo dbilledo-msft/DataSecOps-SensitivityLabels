@@ -43,7 +43,7 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 6. Follow the prompts to configure the Policy settings.
     Do not select any checkboxes on the Policy settings page.
 
-    **The Default label setting for documents, emails, meetings, sites and groups, and PowerBI should all be set to **None*.
+    **The Default label setting for documents, emails (Same as document), meetings, sites and groups, and PowerBI should all be set to **None*.
 
     **For this lab we will accept the default values and not make any selections until we get to the Name your policy screen.**
 
