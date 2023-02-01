@@ -40,10 +40,10 @@ In this task, we will add our new Sensitivity Label to a new label policy.
 
 5. On the **Publish to users and groups** page, keep the default seettings, (On for all users)
 
-6. Follow the prompts to configure the policy settings.
-    The policy settings that you see match the scope of the labels that you selected. For example, if you selected labels that have just the **Items** scope, you don't see the policy settings **Apply this label by default to groups and sites** and **Require users to apply a label to their groups and sites**.
+6. Follow the prompts to configure the Policy settings.
+    Do not select any checkboxes on the Policy settings page.
 
-    For labels configured for **Microsoft Purview Data Map assets (preview)**: These labels don't have any associated policy settings.
+    **The Default label setting for documents, emails, meetings, sites and groups, and PowerBI should all be set to **None*.
 
     **For this lab we will accept the default values and not make any selections until we get to the Name your policy screen.**
 
