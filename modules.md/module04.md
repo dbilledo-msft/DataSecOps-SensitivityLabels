@@ -73,21 +73,7 @@ In this module, you'll walk through how to register and scan data sources. You'l
 
 ## 2. Upload Data to Azure Data Lake Storage Gen2 Account
 
-Before proceeding with the following steps, you will need to:
-
-* Download and install [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
-* Open Azure Storage Explorer.
-* Sign in to Azure via **View > Account Management > Add an account...**.
-
-1. Download a copy of the **[Bing Coronavirus Query Set](https://github.com/tayganr/purviewlab/raw/main/assets/BingCoronavirusQuerySet.zip)** to your local machine. Note: This data set was originally sourced from [Microsoft Research Open Data](https://msropendata.com/datasets/c5031874-835c-48ed-8b6d-31de2dad0654).
-
-2. Locate the downloaded zip file via File Explorer and unzip the contents by right-clicking the file and selecting **Extract All...**.
-
-    ![Extract zip file](../images/module04/02.07-explorer-unzip.png)
-
-3. Click **Extract**.
-
-    ![Extract](../images/module04/02.08-explorer-extract.png)
+1. Download a copy of the **[WKSP_credit_card.csv](https://github.com/dbilledo-msft/DataSecOps-SensitivityLabels/blob/main/assets/WKSP_Credit_card.csv)** to your local machine. 
 
 4. Open Azure Storage Explorer, click on the Toggle Explorer icon, expand the Azure Subscription to find your Azure Storage Account. Right-click on Blob Containers and select **Create Blob Container**. Name the container `raw`.
 
