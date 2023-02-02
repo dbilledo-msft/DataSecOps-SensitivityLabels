@@ -75,9 +75,9 @@ In this module, you'll walk through how to register and scan data sources. You'l
 
 1. Download a copy of the **[WKSP_credit_card.csv](https://github.com/dbilledo-msft/DataSecOps-SensitivityLabels/blob/main/assets/WKSP_Credit_card.csv)** to your local machine. 
 
-4. Open Azure Storage Explorer, click on the Toggle Explorer icon, expand the Azure Subscription to find your Azure Storage Account. Right-click on Blob Containers and select **Create Blob Container**. Name the container `raw`.
+2. Navigate to the ADLS storage from your Azure portal, go to containers on the left hand menu and create a container **Create Blob Container**. Name the container `datafile`.
 
-    ![Create Blob Container](../images/module04/02.12-explorer-container.png)
+    ![Create Blob Container](../images/module04/create-container.png)
 
 5. With the container name selected, click on the **Upload** button and select **Upload Folder...**.
 
