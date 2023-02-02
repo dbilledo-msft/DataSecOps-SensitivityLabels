@@ -78,10 +78,16 @@ In this module, you'll walk through how to register and scan data sources. You'l
 2. Navigate to the ADLS storage from your Azure portal, go to containers on the left hand menu and create a container **Create Blob Container**. Name the container `datafile`.
 
     ![Create Blob Container](../images/module04/create-container.png)
+    
+3. Make sure the public access level is set to 'containers'.
+   
+    ![Access Level Container](../images/module04/new-container.png)
 
 5. With the container name selected, click on the **Upload** button and select **Upload Folder...**.
 
-    ![Upload Folder](../images/module04/02.13-explorer-upload.png)
+    ![Navigate Folder](../images/module04/Navigate-datafiles.png)
+    
+    ![Upload Folder](../images/module04/Upload-file.png)
 
 6. Click on the **ellipsis** to select a folder.
 
