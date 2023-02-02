@@ -85,9 +85,9 @@ In this module, you'll walk through how to register and scan data sources. You'l
 
 5. With the container name selected, click on the **Upload** button and select **Upload Folder...**.
 
-    ![Navigate Folder](../images/module04/Navigate-datafiles.png)
+    ![Navigate Folder](../images/module04/navigate-datafiles.png)
     
-    ![Upload Folder](../images/module04/Upload-file.png)
+    ![Upload Folder](../images/module04/upload-file.png)
 
 6. Click on the **ellipsis** to select a folder.
 
