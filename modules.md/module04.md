@@ -89,23 +89,6 @@ In this module, you'll walk through how to register and scan data sources. You'l
     
     ![Upload Folder](../images/module04/upload-file.png)
 
-6. Click on the **ellipsis** to select a folder.
-
-    ![Browse](../images/module04/02.14-explorer-browse.png)
-
-7. Navigate to the extracted **BingCoronavirusQuerySet** folder (e.g. Downloads\BingCoronavirusQuerySet) and click **Select Folder**.
-
-    ![Folder](../images/module04/02.15-explorer-folder.png)
-
-8. Click **Upload**.
-
-    ![Upload](../images/module04/02.16-explorer-data.png)
-
-9. Monitor the **Activities** until the transfer is complete.
-
-    ![Transfer Complete](../images/module04/02.17-explorer-transfer.png)
-
-<div align="right"><a href="#module-02a---register--scan-adls-gen2">↥ back to top</a></div>
 
 ## 3. Create a Collection
 
